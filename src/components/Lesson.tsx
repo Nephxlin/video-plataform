@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { format, isPast } from "date-fns";
-import ptBR from "date-fns/locale/pt-br";
+import { ptBR } from "date-fns/locale";
 import { CheckCircle, Lock } from "phosphor-react";
 import { Link, useParams } from "react-router-dom";
 
